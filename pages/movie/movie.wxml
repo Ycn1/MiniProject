@@ -1,0 +1,8 @@
+
+<import src="./movie-list/movie-list.wxml" />
+<view class='movie'>
+  
+  <template is="movieList" data="{{movies:inTheatersData,tag:inTheaterstag}}" />
+  <template is="movieList" data="{{movies:inconmmingsoon,tag:inconmmingtag}}" />
+  <template is="movieList" data="{{movies:inTop250Data,tag:inTop250tag}}"/>
+</view>

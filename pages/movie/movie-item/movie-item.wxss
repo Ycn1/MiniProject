@@ -1,0 +1,26 @@
+
+.movieItem-box{
+  display: flex;
+  flex-direction: column;
+  margin-right: 48rpx;
+
+}
+.movie_item{
+  width: 180rpx;
+}
+
+.movie-item-img{
+  width: 200rpx;
+  height: 270rpx;
+  margin-bottom: 10rpx;
+}
+ .link{
+  font-size:28rpx;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+@import"../star-template/star-template.wxss"

@@ -1,0 +1,8 @@
+.star-box{
+  font-size: 20rpx;
+}
+ .star-box  image{
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 5rpx;
+}

@@ -1,0 +1,63 @@
+.detail{
+  position: relative
+}
+.detail-main{
+  width: 100%;
+  height: 400rpx;
+}
+.detail-main-music{
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin-left: -35px;
+  height: 60px;
+  width: 60px;
+}
+.detail-avatar-img{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.detail-title{
+  margin-top: 10px;
+}
+.detail-avatar-text{
+  font-size: 15px;
+  color: #666;
+}
+.detail-content-share{
+  position: absolute;
+  right: 20px;
+  width: 60rpx;
+  height: 70rpx;
+  margin-top: 20px;
+  
+}
+.detail-titie-text{
+  margin-left: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.detail-content-add{
+  position: absolute;
+  right: 80px;
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20px;
+}
+.detail-content-line{
+  width: 100%;
+  height: 1rpx;
+  border: 1rpx solid #333;
+}
+.detail-descption{
+  margin-top: 20px;
+  padding: 10px;
+}
+.detail.descption-text{
+  font-size: 15px;
+  word-spacing: 10rpx;
+}

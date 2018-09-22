@@ -1,0 +1,21 @@
+<import src="./article-item/article-item.wxml" />
+<view>
+   <swiper class='carosel' indicator-dots="true" indicator-color= "rgba(0,0,3)"                   indicator-active-color= "#333">
+     <swiper-item>
+      <image src='../avatar/carousel-1.jpg' class='car-img'></image> 
+     </swiper-item>
+     <swiper-item>
+      <image src='../avatar/carousel-2.jpg' class='car-img'></image> 
+     </swiper-item>
+      <swiper-item>
+      <image src='../avatar/carousel-3.jpg' class='car-img'></image> 
+     </swiper-item>
+   </swiper>
+<view class='article-box'>
+  <block wx:for="{{articles}}" wx:for-item = "item" wx:key="idx">
+     <view catchtap='detailTo' data-articleId='{{item.articleId}}'>
+         <template is="artcleItem" data="{{item: item}}" />
+     </view>
+    </block>
+ </view>
+</view>

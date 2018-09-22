@@ -1,0 +1,10 @@
+<view class='container'>
+   <view class='userinfo'>
+       <image src='/pages/avatar/01.png' class='userinfo-avatar'></image>
+       <text class='userinfo-name'>Alisa</text>
+
+   </view>
+   <view class='mottot' bindtap='mottot'>
+      <text class='mottot-text'>开启之旅</text>
+   </view>
+</view>

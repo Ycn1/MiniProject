@@ -1,0 +1,22 @@
+
+<template name="artcleItem">
+   <view class='article-item'>
+       <view class='article-head'>
+          <image class='article-avatar' src='{{item.avatar}}'></image>
+          <text class='head-text'>{{item.data}}</text>
+       </view>
+       <view class='article-title'>
+          <text class='title-text'>{{item.title}}</text>
+       </view>
+       <view class='article-descption'>
+          <image class='descption-image' src='{{item.image}}'></image>
+          <text class='descption-text'>{{item.description}}</text>
+       </view>
+       <view class='article-foot'>
+          <image class='foot-icon' src='/pages/avatar/article/icon/star.png'></image>
+          <text class='foot-text'>{{item.star}}</text>
+          <image class='foot-icon' src='/pages/avatar/article/icon/eye.png'></image>
+          <text class='foot-text'>{{item.eye}}</text>
+       </view>
+    </view> 
+</template>

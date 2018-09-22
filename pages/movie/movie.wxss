@@ -1,0 +1,5 @@
+/* pages/movie/movie.wxss */
+@import"./movie-list/movie-list.wxss";
+.movie{
+  padding: 0 15rpx;
+}

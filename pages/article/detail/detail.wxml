@@ -1,0 +1,29 @@
+<view class='detail'>
+
+ <view>
+   
+    <image src='{{image}}' class='detail-main'></image>
+    <image src='{{isPlayingMusic ?"../../avatar/article/icon/play.png": "../../avatar/article/icon/music.png"}}' class='detail-main-music'  catchtap='playMusic'></image>
+   
+ </view>
+ <view class='detail-avatar'>
+   <image class='detail-avatar-img' src='{{avatar}}'></image>
+   <text class='detail-avatar-text'>{{author}} 发表于 3天前</text>
+ </view>
+ <view class='detail-title'>
+    <text class='detail-titie-text'>{{title}}</text>
+ </view>
+ <view class='detail-content'>
+    <text class='detail-content-line'></text>
+
+   <image wx:if="{{currentIsCollection}}" catchtap='topAdd' src='../../avatar/article/icon/add2.png' class='detail-content-add' ></image>
+   <image wx:else src='../../avatar/article/icon/add.png' class='detail-content-add' catchtap='topAdd'></image>
+   <image src='../../avatar/article/icon/share.png' class='detail-content-share' catchtap='topShare'></image>
+ </view>
+ <view class='detail-descption'>
+     <text class='detail.descption-text'>
+       {{description}}
+     </text>
+ </view>
+
+</view>
